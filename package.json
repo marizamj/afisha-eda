@@ -1,6 +1,6 @@
 {
   "name": "afisha-eda",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Afisha Eda (http://eda.ru) API",
   "main": "eda.js",
   "scripts": {
