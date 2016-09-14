@@ -1,0 +1,19 @@
+{
+  "name": "afisha-eda",
+  "version": "0.0.1",
+  "description": "Afisha Eda (http://eda.ru) API.",
+  "main": "eda.js",
+  "scripts": {
+    "test": "mocha",
+    "precommit": "npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0"
+  },
+  "devDependencies": {
+    "husky": "^0.11.6",
+    "mocha": "^3.0.2"
+  }
+}
