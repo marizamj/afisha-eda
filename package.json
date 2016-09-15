@@ -10,7 +10,8 @@
   "author": "Marie Zamzhitskaya",
   "license": "ISC",
   "dependencies": {
-    "cheerio": "^0.22.0"
+    "cheerio": "^0.22.0",
+    "request": "^2.74.0"
   },
   "devDependencies": {
     "husky": "^0.11.6",

@@ -1,5 +1,7 @@
-const loadRecipes = require('./loadRecipes');
+const getRecipes = require('./getRecipes');
+const getRecipe = require('./getRecipe');
 
 module.exports = {
-	loadRecipes: loadRecipes
+	getRecipes: getRecipes,
+  getRecipe: getRecipe
 };

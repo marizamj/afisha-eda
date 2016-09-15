@@ -1,16 +1,16 @@
 'use strict';
 
-const loadRecipes = require('../loadRecipes');
+const getRecipes = require('../getRecipes');
 
-var assert = require('assert');
+const assert = require('assert');
 
-describe('loadRecipes', function() {
+describe('getRecipes', function() {
   this.timeout(10000);
 
   let recipes;
 
   before(done => {
-    loadRecipes('1', _recipes => {
+    getRecipes({ page: 1 }, (err, _recipes) => {
       recipes = _recipes;
       done();
     });
