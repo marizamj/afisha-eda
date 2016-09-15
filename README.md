@@ -10,7 +10,9 @@ Afisha Eda (http://eda.ru) API.
 
 ```js
 const eda = require('afisha-eda');
+```
 
+```js
 eda.getRecipes({ page: 1 }, recipes => {
 
   // get recipes from page 1
@@ -37,6 +39,10 @@ eda.getRecipes({ page: 1 }, recipes => {
   ]
   */
 
+});
+```
+
+```js
 eda.getRecipe(id, recipe => {
 
   console.log(recipe);
@@ -62,8 +68,6 @@ eda.getRecipe(id, recipe => {
     ]
   }
   */
-
-})
 
 });
 ```
